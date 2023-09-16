@@ -12,7 +12,7 @@ extern "C" {
     fn alert(s: &str);
 
     #[wasm_bindgen(js_namespace = console)]
-  fn log(s: &str);
+    fn log(s: &str);
 }
 
 #[wasm_bindgen]
